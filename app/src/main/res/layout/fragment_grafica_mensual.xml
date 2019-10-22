@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".tabs.fragments.graficaMensual">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/polloMensual"
+            android:layout_width="match_parent"
+            android:layout_height="400dp" />
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/pesoMensual"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"/>
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/consumoMensual"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"/>
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/alimentoMensual"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"/>
+    </LinearLayout>
+
+</ScrollView>

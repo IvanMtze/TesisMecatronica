@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">San Antonio</string>
+    <string name="nav_header_subtitle">pollosanantonio.com.mx</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="txtActDiarias">Act diarias</string>
+    <string name="txtAlimento">ALimento</string>
+    <string name="resumen">Resumen</string>
+    <string name="lotes">Lotes</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO: remove or change this to tabs in resumenFragment-->
+    <string name="tabSemana">Semana</string>
+    <string name="tabMensual">Mensual</string>
+
+    <!-- TODO: remove or change this to tabs in navigationMenu-->
+    <string name="menuPeso">Peso promedio</string>
+    <string name="menuResumen">Resumen</string>
+    <string name="menuAct">Actividades Diarias</string>
+    <string name="menuLotes">Lotes</string>
+    <string name="menuAlimento">Alimento</string>
+    <string name="menuConfiguracion">Configuracion</string>
+    <string name="menuCerrarSesion">Cerrar sesion</string>
+</resources>
